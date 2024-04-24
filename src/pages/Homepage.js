@@ -1,14 +1,11 @@
-import Head from 'next/head';
+
 import data from '../../family.json';
 import Link from 'next/link';
 
 export default function Homepage() {
   return (
     <div className="ui container">
-      <Head>
-        <title>Read Data KK dan Anggota Keluarga</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
-      </Head>
+      
       <h1>Data KK dan Anggota Keluarga</h1>
       <Link href="/input">
         Tambah Data Keluarga

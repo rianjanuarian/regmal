@@ -8,9 +8,9 @@ export default function handler(req, res) {
     
     fs.writeFileSync('./family.json', JSON.stringify(existingData));
 
-    res.status(200).json({ message: 'Data berhasil disimpan.' });
+   console.log("success")
   } else {
-    res.status(405).json({ message: 'Metode HTTP tidak diizinkan.' });
+    console.log("failed")
   }
 }
 
