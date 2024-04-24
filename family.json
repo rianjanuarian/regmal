@@ -1,0 +1,23 @@
+[
+  {
+    "kode": "CIF2T",
+    "name": "asd",
+    "provinsi": "asd",
+    "jumlah_jiwa": 0,
+    "kabupaten": "asd",
+    "kecamatan": "asd",
+    "kampung": "asdas",
+    "anggota_keluarga": []
+  },
+  
+  {
+    "kode": "EADFB",
+    "name": "gafi",
+    "provinsi": "jatim",
+    "jumlah_jiwa": 0,
+    "kabupaten": "bws",
+    "kecamatan": "curahdami",
+    "kampung": "jhetis",
+    "anggota_keluarga": []
+  }
+]
